@@ -1,7 +1,7 @@
 version: '2'
 services:
-#  node:
-#    image: 'node:alpine'
+  node:
+    image: 'node:alpine'
   nginx:
     labels:
       io.rancher.container.pull_image: always
