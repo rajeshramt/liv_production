@@ -7,6 +7,6 @@ services:
       io.rancher.container.pull_image: always
       io.rancher.scheduler.affinity:host_label: newhost=newhost
       io.rancher.container.network: true
-    image: rajeshworld/node:uib
+    image: rajeshworld/first:production
     ports:
       - "5050:80"
