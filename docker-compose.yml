@@ -3,8 +3,8 @@ services:
   nginx:
     labels:
       io.rancher.container.pull_image: always
-      io.rancher.scheduler.affinity:host_label: newhost=newhost
+      io.rancher.scheduler.affinity:host_label: remote:remote
     #  io.rancher.container.network: true
-    image: rajeshworld/first:neww
+    image: rajeshworld/first:newww
     ports:
       - "5050:80"
